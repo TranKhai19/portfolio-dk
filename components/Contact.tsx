@@ -46,13 +46,13 @@ export const Contact: React.FC = () => {
                 <div className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-primary/20 group-hover:border-primary/50 transition-colors">
                   <Mail size={20} />
                 </div>
-                <span className="text-lg">alex.chen@example.com</span>
+                <span className="text-lg">tdk1902@gmail.com</span>
               </a>
               
               <div className="flex gap-4 mt-4">
                 {[
-                  { icon: <Github size={20} />, href: "#", label: "GitHub" },
-                  { icon: <Linkedin size={20} />, href: "#", label: "LinkedIn" },
+                  { icon: <Github size={20} />, href: "https://github.com/TranKhai19", label: "GitHub" },
+                  { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/kh%E1%BA%A3i-tr%E1%BA%A7n-803b4117b/", label: "LinkedIn" },
                   { icon: <Twitter size={20} />, href: "#", label: "Twitter" }
                 ].map((social, idx) => (
                   <a 

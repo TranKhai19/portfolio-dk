@@ -68,10 +68,10 @@ export const About: React.FC = () => {
         {/* Stats / Experience Bar */}
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-white/10 pt-10">
           {[
-            { label: "Years Experience", value: "5+" },
-            { label: "Projects Shipped", value: "30+" },
+            { label: "Years Experience", value: "2+" },
+            { label: "Projects Shipped", value: "20+" },
             { label: "Models Deployed", value: "12" },
-            { label: "Research Papers", value: "03" }
+            { label: "Research Papers", value: "00" }
           ].map((stat, i) => (
             <div key={i} className="text-center md:text-left">
               <div className="text-3xl md:text-4xl font-bold text-white font-mono mb-1">{stat.value}</div>
