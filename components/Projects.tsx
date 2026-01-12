@@ -30,7 +30,7 @@ const projects: Project[] = [
     description: "A wearable device could help visually impaired people navigate more easily and reach their desired destinations more effectively. ",
     tech: ["ESP32", "Arduino", "YOLOv8-11"],
     category: "IOT",
-    imageUrl: "blind.jpg", // Updated image URL to represent a visually impaired person moving
+    imageUrl: "https://tse2.mm.bing.net/th/id/OIP.EXXz3S9MFYvA3oxgOCLA7AHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", // Updated image URL to represent a visually impaired person moving
     repoLink: "#",
     demoLink: "#"
   }
