@@ -6,7 +6,7 @@ export interface Project {
   title: string;
   description: string;
   tech: string[];
-  category: 'CV' | 'NLP' | 'GenAI';
+  category: 'CV' | 'NLP' | 'IOT';
   imageUrl: string;
   demoLink?: string;
   repoLink?: string;

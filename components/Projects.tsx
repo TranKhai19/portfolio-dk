@@ -11,7 +11,7 @@ const projects: Project[] = [
     tech: ["YOLOv8", "PyTorch", "OpenCV", "FastAPI", "Docker"],
     category: "CV",
     imageUrl: "https://picsum.photos/id/1072/600/400",
-    repoLink: "#",
+    repoLink: "https://github.com/TranKhai19/Car-body-damage-diagnosis.git",
     demoLink: "#"
   },
   {
@@ -26,11 +26,11 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "AI Music Generator",
-    description: "A generative model based on AudioLDM that creates lofi hip-hop tracks from text descriptions. Features a React frontend for real-time generation and mixing.",
-    tech: ["Diffusers", "Hugging Face", "React", "Web Audio API"],
-    category: "GenAI",
-    imageUrl: "https://picsum.photos/id/39/600/400",
+    title: "Smart Necklace",
+    description: "A wearable device could help visually impaired people navigate more easily and reach their desired destinations more effectively. ",
+    tech: ["ESP32", "Arduino", "YOLOv8-11"],
+    category: "IOT",
+    imageUrl: "blind.jpg", // Updated image URL to represent a visually impaired person moving
     repoLink: "#",
     demoLink: "#"
   }
